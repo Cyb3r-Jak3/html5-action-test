@@ -22,4 +22,4 @@ jobs:
 
     - name: Echo Result code
       run: |
-        echo ${{ action.outputs.result }}
+        echo ${{ steps.action.outputs.result }}
