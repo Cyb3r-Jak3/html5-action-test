@@ -17,6 +17,8 @@ jobs:
       with:
         root: /tmp/missing
         log_level: DEBUG
+      env:
+        HTML5_ACTION_DEBUG: true
 
     - name: Echo Result code
       run: |
