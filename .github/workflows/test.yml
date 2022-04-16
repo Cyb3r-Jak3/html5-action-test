@@ -7,6 +7,8 @@ on:
 jobs:
   Lint:
     runs-on: ubuntu-latest
+    env:
+      HTML5_ACTION_DEBUG: true
     steps:
 
     - uses: actions/checkout@v3
